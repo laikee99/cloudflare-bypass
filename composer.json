@@ -11,5 +11,12 @@
     "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "autoload": {
+            "psr-4": {
+                "": "src/"
+            }
+        }
     }
 }

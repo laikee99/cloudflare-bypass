@@ -1,10 +1,4 @@
-<?php
-namespace Stack\Bypass;
-
-/**
- * Require the composer packages
- */
-require "vendor/autoload.php";
+<?php namespace Stack\Bypass;
 
 /**
  * @package CloudFlare
@@ -83,8 +77,8 @@ class CloudFlare
     if(isset($cookies[0]) && $cookies[0])
     {
       if(empty($cookies[1]))
-      	return;
-      
+        return;
+
       $file = $cookies[1];
       $this->cookieJar = new \GuzzleHttp\Cookie\FileCookieJar($file);
       $config = [

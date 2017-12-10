@@ -1,8 +1,10 @@
 # CloudFlare PHP Bypass
+
 This class will allow you to bypass CloudFlare's UAM page and do web requests as normal.
+
 ```
 // Include the library..
-require_once "cloudflare.class.php";
+require __DIR__ . '/vendor/autoload.php';
 
 // Make a new instance of the CloudFlare class, save cookies to file 'x.txt' so we don't have to wait the eight seconds again
 $cloudflare = new \Stack\Bypass\CloudFlare("http://libc.tech", [true, "x.txt"]);
