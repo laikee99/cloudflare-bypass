@@ -13,10 +13,8 @@
         "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
-        "autoload": {
-            "psr-4": {
-                "": "src/"
-            }
+        "psr-4": {
+            "": "src/"
         }
     }
 }
