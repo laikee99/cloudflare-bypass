@@ -1,4 +1,14 @@
 {
+    "name": "thelfensdrfer/CloudFlare-PHP-Bypass",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Helfensdörfer",
+            "email": "tim@visualappeal.de"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "^6.2"
     }
